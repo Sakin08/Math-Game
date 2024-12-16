@@ -112,6 +112,17 @@ class gameactivity : AppCompatActivity() {
                 correctAnswer = number1 * number2
                 textQuestion.text = "$number1 × $number2"
             }
+            "division" -> {
+                val number2 = Random.nextInt(1, 10) // Random divisor between 1 and 9 (non-zero)
+                val multiplier = Random.nextInt(1, 100) // Random multiplier to ensure perfect division
+
+                // Generate a dividend that is a multiple of the divisor
+                val number1 = number2 * multiplier // dividend is guaranteed to be divisible by number2
+
+                correctAnswer = number1 / number2 // Calculate the correct answer
+                textQuestion.text = "$number1 ÷ $number2" // Display the question
+            }
+
         }
 
         // Update the score and life displays

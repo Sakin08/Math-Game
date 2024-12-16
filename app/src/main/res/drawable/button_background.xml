@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Gradient background -->
+    <gradient
+        android:startColor="@color/math_game_blue"
+        android:endColor="@color/math_game_green"
+        android:angle="270" /> <!-- Horizontal gradient direction -->
+
+    <!-- Rounded corners -->
+    <corners android:radius="30dp" /> <!-- Rounded corners with 30dp radius -->
+</shape>

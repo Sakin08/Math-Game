@@ -1,0 +1,12 @@
+<resources>
+    <!-- Primary Colors -->
+    <color name="math_game_green">#4CAF50</color> <!-- Bright Green -->
+    <color name="math_game_orange">#FF9800</color> <!-- Bright Orange -->
+    <color name="math_game_blue">#2196F3</color> <!-- Bright Blue -->
+    <color name="math_game_background">#E8F5E9</color> <!-- Light Green Background -->
+    <color name="white">#FFFFFF</color> <!-- White Text Color -->
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="green"></color>
+
+
+</resources>

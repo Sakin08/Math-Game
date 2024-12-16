@@ -29,6 +29,18 @@ class MainActivity : AppCompatActivity() {
 
         addition.setOnClickListener{
             val intent= Intent(this@MainActivity, gameactivity::class.java)
+            intent.putExtra("OPERATION", "addition")
+            startActivity(intent)
+        }
+
+        substraction.setOnClickListener{
+            val intent= Intent(this@MainActivity, gameactivity::class.java)
+            intent.putExtra("OPERATION", "subtraction")
+            startActivity(intent)
+        }
+        multiplication.setOnClickListener{
+            val intent= Intent(this@MainActivity, gameactivity::class.java)
+            intent.putExtra("OPERATION", "multiplication")
             startActivity(intent)
         }
 
